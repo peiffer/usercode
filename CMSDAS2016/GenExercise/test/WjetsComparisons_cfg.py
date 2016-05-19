@@ -31,7 +31,7 @@ process.RandomNumberGeneratorService = cms.Service("RandomNumberGeneratorService
         engineName = cms.untracked.string('HepJamesRandom')
     )
 )
-
+process.genParticles.src = cms.InputTag("generator")
 
 process.TFileService = cms.Service("TFileService",
                                    fileName = cms.string(options.outputFile)
