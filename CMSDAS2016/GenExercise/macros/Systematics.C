@@ -11,7 +11,7 @@
 void Systematics(){
 
   //define input file
-  TFile *_file0 = TFile::Open("/pnfs/desy.de/cms/tier2/store/mc/RunIISpring16MiniAODv1/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PUSpring16RAWAODSIM_80X_mcRun2_asymptotic_2016_v3-v2/30000/08E136C6-610C-E611-B3C7-549F35AD8B61.root");
+  TFile *_file0 = TFile::Open("/pnfs/desy.de/cms/tier2/store/mc/RunIISpring16MiniAODv2/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PUSpring16RAWAODSIM_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v1/10000/0C37694B-7325-E611-9E01-0025904C66F4.root");
   TTree* events = (TTree*)_file0->Get("Events");
 
   //initialize histograms
